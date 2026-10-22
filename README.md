@@ -13,14 +13,17 @@ The project is designed to demonstrate a reproducible workflow for processing he
 
 Treatment conditions
 
-Conditi             |   Concentration
-Vehicle control	    |   0 nM
-CX-101	            |   0.1 nM
-CX-101	            |   1 nM
-CX-101	            |   10 nM
-CX-101	            |   100 nM
-CX-101	            |   1000 nM
-Ionomycin control	|   Positive control
+| Condition | Concentration |
+
+|-------------------|-------------------|
+
+| Vehicle control | 0 nM |
+| CX-101 | 0.1 nM |
+| CX-101 | 1 nM |
+| CX-101 | 10 nM |
+| CX-101 | 100 nM |
+| CX-101 | 1000 nM |
+| Ionomycin control | Positive control |
 
 The experiment contains measurements from multiple experimental batches with biological/technical replicates.
 
