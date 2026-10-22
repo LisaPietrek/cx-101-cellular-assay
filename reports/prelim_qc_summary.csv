@@ -1,0 +1,5 @@
+,Check,Results,Actions
+0,Missing RFU value,1,Flag & exclude from response analysis
+1,Duplicate observation,1,Remove confirmed duplicate
+2,Missing replicate ID,1,Flag
+3,Potential RFU outliers,1,Review
