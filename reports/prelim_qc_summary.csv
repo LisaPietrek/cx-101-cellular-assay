@@ -1,5 +1,5 @@
-,Check,Results,Actions
-0,Missing RFU value,1,Flag & exclude from response analysis
-1,Duplicate observation,1,Remove confirmed duplicate
-2,Missing replicate ID,1,Flag
-3,Potential RFU outliers,1,Review
+Check,# Incident,Row(s),Action
+Missing values,1,[17],Flag & exclude from response analysis
+Duplicate observations,1,[42],Remove confirmed duplicate
+Missing identifiers,1,[120],Flag
+Potential RFU outliers,11,"[13, 15, 43, 47, 53, 61, 73, 104, 109, 119, 126]",Review

@@ -1,0 +1,35 @@
+batch,source_row,field,change_type,old_value,new_value
+batch1,-,column_name,column_renaming,Experiment Date,experiment_date
+,-,column_name,column_renaming,Batch,batch
+,-,column_name,column_renaming,Plate ID,plate_id
+,-,column_name,column_renaming,Well,well
+,-,column_name,column_renaming,Compound,compound
+,-,column_name,column_renaming,Concentration,concentration
+,-,column_name,column_renaming,Unit,unit
+,-,column_name,column_renaming,Replicate,replicate
+,-,column_name,column_renaming,RFU,rfu
+,-,column_name,column_renaming,Notes,notes
+,8.0,compound,compound_standardization,CX101,CX-101
+batch2,-,column_name,column_renaming,Experiment_Date,experiment_date
+,-,column_name,column_renaming,Batch_ID,batch
+,-,column_name,column_renaming,Plate,plate_id
+,-,column_name,column_renaming,Well_Position,well
+,-,column_name,column_renaming,Conc,concentration
+,-,column_name,column_renaming,Concentration_Unit,unit
+,-,column_name,column_renaming,Rep,replicate
+,-,column_name,column_renaming,RFU,rfu
+,-,column_name,column_renaming,Notes,notes
+,12.0,compound,compound_standardization,cx-101,CX-101
+,18.0,concentration,unit_conversion,0.001 µM,1000.0 µM
+batch3,-,column_name,column_renaming,Experiment Date,experiment_date
+,-,column_name,column_renaming,Batch,batch
+,-,column_name,column_renaming,Plate ID,plate_id
+,-,column_name,column_renaming,Well,well
+,-,column_name,column_renaming,Compound,compound
+,-,column_name,column_renaming,Concentration,concentration
+,-,column_name,column_renaming,Unit,unit
+,-,column_name,column_renaming,Replicate,replicate
+,-,column_name,column_renaming,RFU,rfu
+,-,column_name,column_renaming,Notes,notes
+,6.0,compound,compound_standardization, CX-101 ,CX-101
+,24.0,concentration,unit_conversion,0.0001 µM,100.0 µM

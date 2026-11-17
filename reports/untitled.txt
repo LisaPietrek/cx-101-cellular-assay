@@ -1,0 +1,9 @@
+further remakrs
+4. . Unknown or missing units are silently changed to nM. In cell 9, the code converts recognized µM values, then sets every unit to "nM". That can make missing or unrecognized units look valid. Validate units before conversion; keep unrecognized values in the QC results and stop or flag them rather than relabeling them.
+
+Also, the transformation log does not record concentration changes: cell 9 logs the unit change but not the numeric concentration multiplication. Record both old and new concentration values, with units, so the log captures the actual conversion.
+
+The standardization log can misstate what changed. Cell 9 lowercases compound names and then maps them back to canonical case, but _log(change="compound") compares the original value to the final value. For an already canonical value such as CX-101, the intermediate change is invisible; other changes may be logged without explaining trimming or case normalization. Log each transformation from the original input, including the source file, batch, row, and affected field.
+
+Cell 12 invents batch labels from input order, and its row indices are batch-local. QC row indices, by contrast, come from the concatenated dataset. Include a stable source identifier—at least file, batch, and well—in both logs so a reported incidence can be found in the raw workbook
+
