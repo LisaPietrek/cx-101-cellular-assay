@@ -1,5 +1,5 @@
 batch,source_row,field,change_type,old_value,new_value
-batch1,-,column_name,column_renaming,Experiment Date,experiment_date
+1,-,column_name,column_renaming,Experiment Date,experiment_date
 ,-,column_name,column_renaming,Batch,batch
 ,-,column_name,column_renaming,Plate ID,plate_id
 ,-,column_name,column_renaming,Well,well
@@ -10,7 +10,7 @@ batch1,-,column_name,column_renaming,Experiment Date,experiment_date
 ,-,column_name,column_renaming,RFU,rfu
 ,-,column_name,column_renaming,Notes,notes
 ,8.0,compound,compound_standardization,CX101,CX-101
-batch2,-,column_name,column_renaming,Experiment_Date,experiment_date
+2,-,column_name,column_renaming,Experiment_Date,experiment_date
 ,-,column_name,column_renaming,Batch_ID,batch
 ,-,column_name,column_renaming,Plate,plate_id
 ,-,column_name,column_renaming,Well_Position,well
@@ -21,7 +21,7 @@ batch2,-,column_name,column_renaming,Experiment_Date,experiment_date
 ,-,column_name,column_renaming,Notes,notes
 ,12.0,compound,compound_standardization,cx-101,CX-101
 ,18.0,concentration,unit_conversion,0.001 µM,1000.0 µM
-batch3,-,column_name,column_renaming,Experiment Date,experiment_date
+3,-,column_name,column_renaming,Experiment Date,experiment_date
 ,-,column_name,column_renaming,Batch,batch
 ,-,column_name,column_renaming,Plate ID,plate_id
 ,-,column_name,column_renaming,Well,well
