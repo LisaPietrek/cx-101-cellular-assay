@@ -19,7 +19,8 @@ CX101_batch_2_raw.xlsx,-,column_name,column_renaming,Experiment_Date,date
 ,-,column_name,column_renaming,Rep,replicate
 ,-,column_name,column_renaming,RFU,rfu
 ,-,column_name,column_renaming,Notes,notes
-,20.0,concentration,unit_conversion,0.001 µM,1.0 nM
+,14.0,compound,compound_standardization,cx-101,CX-101
+,20.0,concentration,unit_conversion,0.001 µM,1 nM
 CX101_batch_3_raw.xlsx,-,column_name,column_renaming,Experiment Date,date
 ,-,column_name,column_renaming,Batch,batch
 ,-,column_name,column_renaming,Plate ID,plate_id
@@ -30,4 +31,5 @@ CX101_batch_3_raw.xlsx,-,column_name,column_renaming,Experiment Date,date
 ,-,column_name,column_renaming,Replicate,replicate
 ,-,column_name,column_renaming,RFU,rfu
 ,-,column_name,column_renaming,Notes,notes
+,8.0,compound,whitespace_trimmed,' CX-101 ','CX-101'
 ,26.0,concentration,unit_conversion,0.0001 µM,0.1 nM
